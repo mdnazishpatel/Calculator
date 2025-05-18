@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="stytles.css">
+  <title>Modern Calculator</title>
+</head>
+<body>
+  <div class="calculator">
+    <div class="display">
+      <input id="input" type="text" placeholder="0" readonly />
+    </div>
+    <div class="buttons">
+      <button class="clear">AC</button>
+      <button class="delete">DEL</button>
+      <button class="operator">%</button>
+      <button class="operator">/</button>
+      
+      <button class="number">7</button>
+      <button class="number">8</button>
+      <button class="number">9</button>
+      <button class="operator">*</button>
+      
+      <button class="number">4</button>
+      <button class="number">5</button>
+      <button class="number">6</button>
+      <button class="operator">-</button>
+      
+      <button class="number">1</button>
+      <button class="number">2</button>
+      <button class="number">3</button>
+      <button class="operator">+</button>
+      
+      <button class="number">00</button>
+      <button class="number">0</button>
+      <button class="number">.</button>
+      <button class="equals">=</button>
+    </div>
+  </div>
+  
+  <!-- Custom Alert -->
+  <div class="custom-alert" id="customAlert">
+    <div class="alert-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10"></circle>
+        <line x1="12" y1="8" x2="12" y2="12"></line>
+        <line x1="12" y1="16" x2="12.01" y2="16"></line>
+      </svg>
+    </div>
+    <div class="alert-content">made out of boredom just for fun and pratice!</div>
+    <div class="alert-close" id="alertClose">×</div>
+  </div>
+
+  <script src="style.js"></script>
+</body>
+</html>
